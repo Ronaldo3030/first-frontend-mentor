@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+
+body{
+    width: 100%;
+    height: 125vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(#5c54b465,#5c54b465 100%), url(../images/pattern-background-desktop.svg);
+    background-position: center top;
+    background-repeat: repeat-x;
+    font-family: 'Red Hat Display', sans-serif;
+    color: #0a0a0a;
+}
+.container{
+    width: 45rem;
+    background-color: #fff;
+    border-radius: 3rem;
+    margin: 2rem;
+    box-shadow: .8rem 1rem 1rem #0a0a0a17;
+}
+.image-hero{
+    border-radius: 3rem 3rem 0 0;
+    width: 100%;
+}
+/* ======== SUMARY ======== */
+.sumary-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sumary-container h1{
+    font-size: 3rem;
+    font-weight: 900;
+    /* margin: 1.5rem 0 1.5rem 0; */
+}
+.sumary-container p{
+    text-align: center;
+    font-size: 1.6rem;
+    margin-top: 2rem;
+    color: rgb(131, 131, 131);
+    font-weight: 500;
+}
+.sumary-container{
+    margin: 3rem 8rem 3rem 8rem;
+}
+
+/* ======== PLAN ======== */
+.container-plan{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.info-plan{
+    margin: 0 2.5rem 0 2.5rem;
+    font-size: 1.5rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.info-plan p{
+    text-align: center;
+    font-size: 1.6rem;
+    color: rgb(131, 131, 131);
+    font-weight: 500;
+    
+}
+.container-plan a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 600;
+    transition: color 200ms ease;
+    color: #1e1fcd;
+}
+.container-plan a:hover{
+    color: #5c54b4;
+}
+
+/* ======== BUTTONS ======== */
+.options-buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem 0;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    outline: 0;
+    background-color: #1e1fcd;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 1.5rem 10rem;
+    border-radius: 1rem;
+    margin: 3rem;
+    transition: background-color 200ms ease;
+}
+.btn:hover{
+    background-color: #5c54b4;
+}
+.options-buttons a{
+    text-align: center;
+    font-size: 1.7rem;
+    color: rgb(131, 131, 131);
+    font-weight: 600;
+    text-decoration: none;
+    transition: color 200ms ease;
+}
+.options-buttons a:hover{
+    color: #0a0a0a;
+    
+}
+
+a{
+    text-decoration: none;
+}
+i{
+    margin-right: .5rem;
+}
